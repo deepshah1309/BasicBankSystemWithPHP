@@ -1,9 +1,10 @@
 <?php
 	
 	session_start();
+//hiding  password for security purpose
     $server='sql306.epizy.com';
     $username='epiz_27375844';
-    $password='PVT4dmP93mnygL';
+    $password='';
     $db='epiz_27375844_practice';
 	$con=mysqli_connect($server,$username,$password,$db);
 	
